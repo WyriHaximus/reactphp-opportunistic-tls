@@ -1,0 +1,8 @@
+parameters:
+	ergebnis:
+		noExtends:
+			classesAllowedToBeExtended:
+				- PHPStan\Testing\RuleTestCase
+
+includes:
+	- ../../vendor/wyrihaximus/async-test-utilities/rules.neon
